@@ -15,15 +15,30 @@
 </head>
 
 <body>
-  <div class="container" id="mainContainer">
+  <div class="container">
+    <!-- Head -->
+    <div class="row">
+      <img src="assets/images/headPic.png" alt="Head">
+    </div>
+    <!-- Main pic -->
+    <div class="row divide2">
+      <img class="mainPic" src="assets/images/picCard.jpg" alt="Head">
+    </div>
+    <!-- Divide 2 -->
+    <div class="row">
+      <img src="assets/images/divide2.png" alt="Head">
+    </div>
     <!-- Slideshow -->
     <div class="row">
-      <div class="col">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="col" id="myCarousel">
+        <div id="carouselExampleIndicators" class="carousel slide myShadow" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -36,40 +51,50 @@
               <img src="assets/images/pic7.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
     </div>
+    <!-- Divide 1 -->
+    <div class="row">
+      <img src="assets/images/divide1.png" alt="Head">
+    </div>
     <!-- Video list -->
     <div class="row">
       <div class="col">
         <!-- Video 1 -->
-        <video width="400" controls autoplay>
+        <video width="400" controls autoplay class="myShadow">
           <source src="assets/videos/vid1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
       <div class="col">
         <!-- Video 2 -->
-        <video width="400" controls autoplay>
+        <video width="400" controls autoplay class="myShadow">
           <source src="assets/videos/vid2.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
       <div class="col">
         <!-- Video 3 -->
-        <video width="400" controls autoplay>
+        <video width="400" controls autoplay class="myShadow">
           <source src="assets/videos/vid3.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
+    </div>
+    <!-- Pic Slide -->
+    <div class="row">
+      <img src="assets/images/picSlide.jpg" alt="...">
     </div>
   </div>
 
